@@ -166,11 +166,13 @@ require.register("initialize.js", function(exports, require, module) {
   var buttonsArray = [stabilityButton, prestigiousnessButton, careerButton, cultureButton];
 
   for (var i = 0; buttonsArray.length > i; i++) {
-    buttonsArray[i].addEventListener('mouseover', function (evt) {
+    buttonsArray[i].addEventListener('click', function (evt) {
       for (var i = 0; buttonsArray.length > i; i++) {
+        buttonsArray[i].classList.remove('active');
         slidsArray[i].classList.remove('visible');
         if (evt.target === buttonsArray[i]) {
           slidsArray[i].classList.add('visible');
+          buttonsArray[i].classList.add('active');
         }
       }
     });

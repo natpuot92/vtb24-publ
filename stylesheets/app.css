@@ -676,6 +676,10 @@ a {
     box-shadow: 0px 6px 11px rgba(94, 133, 177, 0.4);
     border-radius: 2px; }
 
+.active {
+  box-shadow: 0px 6px 11px rgba(94, 133, 177, 0.4);
+  border-radius: 2px; }
+
 .button-active {
   box-shadow: 0px 6px 11px rgba(94, 133, 177, 0.4);
   border-radius: 2px; }
@@ -807,16 +811,17 @@ a {
   border-radius: 5px; }
 
 .features__prestigiousness-item-1 {
-  background: url("../images/meeting-cyp.png") no-repeat center;
-  background-size: contain; }
+  background: url("../images/prestigiousness-1.jpg") no-repeat center;
+  background-size: 110%; }
 
 .features__prestigiousness-item-2 {
-  background: url("../images/earth.png") no-repeat center;
-  background-size: contain; }
+  background: url("../images/prestigiousness-2.jpg") no-repeat center;
+  background-size: 110%; }
 
 .features__prestigiousness-item-3 {
-  margin-right: 0;
-  background: #979797; }
+  background: url("../images/prestigiousness-3.jpg") no-repeat center;
+  background-size: 110%;
+  margin-right: 0; }
 
 .features__prestigiousness-item-text-span {
   font-size: 18px; }
@@ -847,6 +852,18 @@ a {
   margin: 0 auto;
   margin-bottom: 22px;
   background: #888e9b; }
+
+.features__career-item-icon-1 {
+  background: url("../images/career-1.jpg") no-repeat center;
+  background-size: contain; }
+
+.features__career-item-icon-2 {
+  background: url("../images/career-2.png") no-repeat center;
+  background-size: contain; }
+
+.features__career-item-icon-3 {
+  background: url("../images/career-3.jpg") no-repeat center;
+  background-size: contain; }
 
 .features__career-item-text {
   text-align: center;
@@ -896,15 +913,16 @@ a {
   color: #ffffff; }
 
 .features__culture-item-1 {
-  background: url("../images/meeting-cyp.png") no-repeat center;
-  background-size: contain; }
+  background: url("../images/culture-1.jpg") no-repeat center;
+  background-size: 110%; }
 
 .features__culture-item-2 {
-  background: url("../images/earth.png") no-repeat center;
-  background-size: contain; }
+  background: url("../images/culture-2.jpg") no-repeat center;
+  background-size: 110%; }
 
 .features__culture-item-3 {
-  background: #979797; }
+  background: url("../images/culture-3.jpg") no-repeat center;
+  background-size: 110%; }
 
 .hidden {
   display: none; }
@@ -1187,6 +1205,19 @@ a {
   margin-bottom: 16px;
   background: #888e9b; }
 
+.tasks__item-icon-1 {
+  width: 40px;
+  background: url("../images/tasks-1.svg") no-repeat center;
+  background-size: contain; }
+
+.tasks__item-icon-2 {
+  background: url("../images/tasks-2.jpg") no-repeat center;
+  background-size: contain; }
+
+.tasks__item-icon-3 {
+  background: url("../images/tasks-3.jpg") no-repeat center;
+  background-size: contain; }
+
 .tasks__item-text {
   font-family: MetaPro-Book;
   font-size: 23px;
@@ -1226,6 +1257,7 @@ a {
     line-height: 24px; }
   .tasks__item-text div {
     margin-top: 12px;
+    text-align: left;
     font-size: 13px;
     line-height: 18px; } }
 
@@ -1305,8 +1337,32 @@ a {
   height: 83px;
   width: 80px;
   margin: 0 auto;
-  margin-bottom: 12px;
-  background: #888e9b; }
+  margin-bottom: 12px; }
+
+.garanty__item-icon-1 {
+  background: url("../images/garanty-1.jpg") no-repeat center;
+  background-size: contain; }
+
+.garanty__item-icon-2 {
+  background: url("../images/garanty-2.jpg") no-repeat center;
+  background-size: contain; }
+
+.garanty__item-icon-3 {
+  width: 68px;
+  background: url("../images/garanty-3.svg") no-repeat center;
+  background-size: contain; }
+
+.garanty__item-icon-4 {
+  background: url("../images/garanty-4.jpg") no-repeat center;
+  background-size: contain; }
+
+.garanty__item-icon-5 {
+  background: url("../images/garanty-5.jpg") no-repeat center;
+  background-size: contain; }
+
+.garanty__item-icon-6 {
+  background: url("../images/garanty-6.jpg") no-repeat center;
+  background-size: contain; }
 
 .garanty__item-text {
   width: 260px;
