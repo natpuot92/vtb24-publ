@@ -706,6 +706,7 @@ a {
           justify-content: center;
   max-width: 918px;
   width: 100%;
+  margin: 0 auto;
   margin-bottom: 144px; }
 
 .features__stability {
@@ -926,6 +927,7 @@ a {
   background-size: 110%; }
 
 .features__culture-item-3 {
+  margin-right: 0;
   background: url("../images/culture-3.jpg") no-repeat center;
   background-size: 110%; }
 
